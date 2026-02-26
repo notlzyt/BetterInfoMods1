@@ -1,0 +1,13 @@
+{
+  "geode": "4.10.1",
+  "gd": "2.2081",
+  "id": "tu.nombre.betterinfo_clone",
+  "version": "v1.0.0",
+  "name": "BetterInfo Clone",
+  "developer": "TuNombre",
+  "description": "Un mod de información para Geometry Dash creado desde móvil.",
+  "binaries": {
+    "android64": "libBetterInfo.so",
+    "android32": "libBetterInfo.so"
+  }
+}
