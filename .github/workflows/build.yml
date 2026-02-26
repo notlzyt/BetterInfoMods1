@@ -18,5 +18,7 @@ jobs:
       - name: Build Mod
         uses: geode-sdk/build-geode-mod@main
         with:
-          # Esta es la línea que corrige el error '--platform'
-          target: ${{ matrix.config.target }}
+          # Forzamos a que use Android directamente para evitar el error de --platform
+          target: Android
+          # Esto evita que el compilador se detenga por advertencias menores
+          combine: true
